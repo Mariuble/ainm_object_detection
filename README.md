@@ -2,7 +2,9 @@
 
 ## Team UltraThinkers | March 19–22, 2026
 
-### Final Score: **0.8938** (my ensemble submission) | Team best: **0.8969**
+### Final Score: **0.8969** | My best: 0.8938 (ensemble)
+
+### Model Weights: [huggingface.co/norway1994/ainm-object-detection](https://huggingface.co/norway1994/ainm-object-detection)
 
 ---
 
