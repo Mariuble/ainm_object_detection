@@ -1,0 +1,1 @@
+python3 run.py --input ../data/train/images  --output ./out/predictions.json

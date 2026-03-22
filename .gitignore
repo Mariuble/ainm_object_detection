@@ -1,1 +1,6 @@
 .DS_Store
+*.pt
+*.onnx
+*.zip
+__pycache__/
+*/weights/
