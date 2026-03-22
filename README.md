@@ -173,21 +173,6 @@ Two-model ensemble with default WBF parameters improved the score (+0.93%). But 
 
 ---
 
-## Timeline
-
-| When | What |
-|------|------|
-| Mar 19, evening | Downloaded data, set up repo, initial exploration |
-| Mar 20 | YOLO11s on Colab (0.494 mAP50), identified imgsz=640 as bottleneck |
-| Mar 21, morning | YOLO11m at imgsz=1280 on Colab (0.715), Colab throttled |
-| Mar 21, afternoon | Created GCP A100 VM, YOLO11l training (0.935 val mAP50) |
-| Mar 21, evening | First submission: 0.8845, started parallel experiments |
-| Mar 21, night | Overnight runs: YOLO11x, cls=0.3, combined data |
-| Mar 22, morning | Ensemble submission: 0.8938, failed 3-model ensemble: 0.6785 |
-| Mar 22, afternoon | Final experiments, cleanup, documentation |
-
----
-
 ## Tools & Stack
 
 - **Training:** ultralytics (latest for YOLO11), PyTorch 2.7.1, Python 3.10
@@ -234,5 +219,3 @@ Two-model ensemble with default WBF parameters improved the score (+0.93%). But 
 9. **Try enhanced augmentation** (copy_paste=0.3 + mixup=0.15) — worked for teammates with YOLOv8x
 
 ---
-
-*Built with Claude Code during NM i AI 2026. From 0.494 to 0.8938 in 48 hours.*
