@@ -8,10 +8,11 @@
 
 ---
 
-## Competition Overview
-- **Task**: Detect and classify grocery products on store shelves (NorgesGruppen data)
-- **Duration**: March 19 18:00 – March 22 15:00 CET (69 hours)
-- **Scoring**: `Score = 0.7 × detection_mAP@0.5 + 0.3 × classification_mAP@0.5`
+## The Task
+
+Detect and classify grocery products on store shelf images. 248 training images with ~22,731 COCO-format bounding box annotations across 356 product categories. Images range from 481×399 to 5712×4624 pixels, with an average of 92 products per image (very dense shelves). 69-hour competition (March 19–22, 2026).
+
+**Scoring:** `0.7 × detection_mAP@0.5 + 0.3 × classification_mAP@0.5`
 
 ## Dataset
 - **248 shelf images** (481×399 to 5712×4624 px, most ~2000×1500), ~22,731 COCO bbox annotations
